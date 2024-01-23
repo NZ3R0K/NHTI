@@ -1,0 +1,8 @@
+Change Gridsize : Mouse Scroll
+Change Division Count : LCtrl + Mouse Scroll
+Move Origin: Middle Mouse Button
+Toggle Origin: Keyboard 1
+Toggle Axis: Keyboard 2
+Toggle Dividers: Keyboard 3
+Toggle Shapes: Keyboard 4
+Toggle Parabolas: Keyboard 5

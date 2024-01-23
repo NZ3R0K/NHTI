@@ -1,0 +1,713 @@
+ffmpeg version 2020-09-20-git-ef29e5bf42-full_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-libsnappy --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libdav1d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libglslang --enable-vulkan --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libwavpack --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      56. 59.100 / 56. 59.100
+  libavcodec     58.106.100 / 58.106.100
+  libavformat    58. 58.100 / 58. 58.100
+  libavdevice    58. 11.102 / 58. 11.102
+  libavfilter     7. 87.100 /  7. 87.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Knigh/AppData/Local/Temp/KritaFFmpegProgress.RCiULb'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '20'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/ILMA.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Knigh/AppData/Local/Temp/KritaFFmpegProgress.RCiULb.
+[file @ 00000178deede9c0] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 20.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png.
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0000.png' for reading
+[file @ 00000178def237c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def2b9c0] Statistics: 23270 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0001.png' for reading
+[file @ 00000178def37480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def2b840] Statistics: 27871 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0002.png' for reading
+[file @ 00000178def37480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def31840] Statistics: 33027 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0003.png' for reading
+[file @ 00000178def37480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def31a80] Statistics: 41807 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0004.png' for reading
+[file @ 00000178def37480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def31c40] Statistics: 46246 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0005.png' for reading
+[file @ 00000178def37480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def31e00] Statistics: 49462 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0006.png' for reading
+[file @ 00000178def37480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def327c0] Statistics: 60511 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0007.png' for reading
+[file @ 00000178def327c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32900] Statistics: 69636 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0008.png' for reading
+[file @ 00000178def327c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32900] Statistics: 77430 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0009.png' for reading
+[file @ 00000178def32880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32ac0] Statistics: 83904 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0010.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 81315 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0011.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 84545 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0012.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 88378 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0013.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 91158 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0014.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 88838 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0015.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 90783 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0016.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 92193 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0017.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 90574 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0018.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 92309 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0019.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 92758 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0020.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 92734 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0021.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 92656 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0022.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32bc0] Statistics: 92928 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0023.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 94123 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0024.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 102163 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0025.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 111743 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0026.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 116091 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0027.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 125417 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0028.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 133573 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0029.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 149635 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0030.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 152849 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0031.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 168035 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0032.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 177219 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0033.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 177313 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0034.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 183804 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0035.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 186934 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0036.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 178743 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0037.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 178492 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0038.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 181452 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0039.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 184811 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0040.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 190063 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0041.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 194771 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0042.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 201001 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0043.png' for reading
+[file @ 00000178def32ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178def32fc0] Statistics: 207982 bytes read, 0 seeks
+[image2 @ 00000178def1ed80] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png':
+  Duration: 00:00:06.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 44, 1/25: Video: png, 1 reference frame, rgba(pc), 1080x1080 [SAR 3937:3937 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png.
+[NULL @ 00000178def32fc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png' for reading
+[file @ 00000178def2b6c0] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 00000178def32fc0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 00000178def32fc0] Before avformat_find_stream_info() pos: 0 bytes read:1032 seeks:0 nb_streams:1
+[png_pipe @ 00000178def32fc0] After avformat_find_stream_info() pos: 1032 bytes read:1032 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/ILMA.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/ILMA.gif.
+[file @ 00000178def222c0] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 00000178def1ed80] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 9 times
+[graph 0 input from stream 0:0 @ 00000178dfc6f400] Setting 'video_size' to value '1080x1080'
+[graph 0 input from stream 0:0 @ 00000178dfc6f400] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000178dfc6f400] Setting 'time_base' to value '1/20'
+[graph 0 input from stream 0:0 @ 00000178dfc6f400] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 00000178dfc6f400] Setting 'frame_rate' to value '20/1'
+[graph 0 input from stream 0:0 @ 00000178dfc6f400] w:1080 h:1080 pixfmt:rgba tb:1/20 fr:20/1 sar:3937/3937
+[graph 0 input from stream 1:0 @ 00000178dfc6f500] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000178dfc6f500] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000178dfc6f500] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000178dfc6f500] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000178dfc6f500] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000178dfc6f500] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 00000178dfc90a00] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 00000178dfc821c0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000178def31700] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 00000178df96e480] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000178def31700] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 00000178def29dc0] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 00000178dfd58f80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 00000178dfc821c0] w:1080 h:1080 fmt:rgba sar:3937/3937 -> w:1080 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 00000178e21d00c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 00000178df96e480] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 00000178def31700] [framesync @ 00000178dfcba208] Selected 1/100 time base
+[Parsed_paletteuse_0 @ 00000178def31700] [framesync @ 00000178dfcba208] Sync level 2
+Output #0, gif, to 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/ILMA.gif':
+  Metadata:
+    encoder         : Lavf58.58.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 1080x1080 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 20 fps, 100 tbn, 20 tbc (default)
+    Metadata:
+      encoder         : Lavc58.106.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000178def34d80] 141x44 image at pos (68;1036) [area:1080x1080]
+[gif @ 00000178def34d80] 167x127 image at pos (65;953) [area:1080x1080]
+[gif @ 00000178def34d80] 167x253 image at pos (65;827) [area:1080x1080]
+[gif @ 00000178def34d80] 171x329 image at pos (62;720) [area:1080x1080]
+[gif @ 00000178def34d80] 182x360 image at pos (54;638) [area:1080x1080]
+[gif @ 00000178def34d80] 189x443 image at pos (51;547) [area:1080x1080]
+[gif @ 00000178def34d80] 206x537 image at pos (51;453) [area:1080x1080]
+[gif @ 00000178def34d80] 216x638 image at pos (46;352) [area:1080x1080]
+[gif @ 00000178def34d80] 216x745 image at pos (46;249) [area:1080x1080]
+[gif @ 00000178def34d80] 218x837 image at pos (44;158) [area:1080x1080]
+[gif @ 00000178def34d80] 175x321 image at pos (54;99) [area:1080x1080]
+[gif @ 00000178def34d80] 164x336 image at pos (44;19) [area:1080x1080]
+[gif @ 00000178def34d80] 229x273 image at pos (10;0) [area:1080x1080]
+[gif @ 00000178def34d80] 237x178 image at pos (2;0) [area:1080x1080]
+frame=   15 fps=0.0 q=-0.0 size=     256kB time=00:00:00.71 bitrate=2953.7kbits/s speed=1.35x    [gif @ 00000178def34d80] 237x164 image at pos (2;0) [area:1080x1080]
+[gif @ 00000178def34d80] 288x235 image at pos (23;0) [area:1080x1080]
+[gif @ 00000178def34d80] 237x257 image at pos (125;39) [area:1080x1080]
+[gif @ 00000178def34d80] 236x286 image at pos (210;114) [area:1080x1080]
+[gif @ 00000178def34d80] 256x318 image at pos (268;197) [area:1080x1080]
+[gif @ 00000178def34d80] 223x285 image at pos (343;310) [area:1080x1080]
+[gif @ 00000178def34d80] 214x349 image at pos (399;379) [area:1080x1080]
+[gif @ 00000178def34d80] 216x337 image at pos (440;504) [area:1080x1080]
+[gif @ 00000178def34d80] 210x322 image at pos (493;625) [area:1080x1080]
+[gif @ 00000178def34d80] 187x315 image at pos (555;739) [area:1080x1080]
+[gif @ 00000178def34d80] 252x363 image at pos (543;717) [area:1080x1080]
+[gif @ 00000178def34d80] 300x401 image at pos (538;679) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0044.png' for reading
+[file @ 00000178def31900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178e2217e80] Statistics: 210828 bytes read, 0 seeks
+[gif @ 00000178def34d80] 324x455 image at pos (536;625) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0045.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 210686 bytes read, 0 seeks
+[gif @ 00000178def34d80] 369x509 image at pos (536;571) [area:1080x1080]
+frame=   29 fps= 28 q=-0.0 size=     512kB time=00:00:01.41 bitrate=2974.7kbits/s speed=1.37x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0046.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 207190 bytes read, 0 seeks
+[gif @ 00000178def34d80] 409x536 image at pos (535;544) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0047.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 207190 bytes read, 0 seeks
+[gif @ 00000178def34d80] 501x513 image at pos (531;500) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0048.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 207274 bytes read, 0 seeks
+[gif @ 00000178def34d80] 518x547 image at pos (540;441) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0049.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 212711 bytes read, 0 seeks
+[gif @ 00000178def34d80] 544x579 image at pos (536;385) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0050.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 214158 bytes read, 0 seeks
+[gif @ 00000178def34d80] 544x650 image at pos (536;341) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0051.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 216944 bytes read, 0 seeks
+[gif @ 00000178def34d80] 528x689 image at pos (533;286) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0052.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 217570 bytes read, 0 seeks
+[gif @ 00000178def34d80] 547x750 image at pos (533;225) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0053.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 217516 bytes read, 0 seeks
+[gif @ 00000178def34d80] 549x867 image at pos (531;127) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0054.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 217516 bytes read, 0 seeks
+[gif @ 00000178def34d80] 531x872 image at pos (541;83) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0055.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 221300 bytes read, 0 seeks
+[gif @ 00000178def34d80] 531x918 image at pos (542;40) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0056.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cdc0] Statistics: 224283 bytes read, 0 seeks
+[gif @ 00000178def34d80] 454x666 image at pos (582;13) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0057.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 224675 bytes read, 0 seeks
+[gif @ 00000178def34d80] 521x630 image at pos (500;7) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0058.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 226353 bytes read, 0 seeks
+[gif @ 00000178def34d80] 565x647 image at pos (445;7) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0059.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 230841 bytes read, 0 seeks
+[gif @ 00000178def34d80] 610x614 image at pos (398;79) [area:1080x1080]
+frame=   43 fps= 28 q=-0.0 size=    1024kB time=00:00:02.11 bitrate=3975.6kbits/s speed=1.35x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0060.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 233234 bytes read, 0 seeks
+[gif @ 00000178def34d80] 651x584 image at pos (350;148) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0061.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 235309 bytes read, 0 seeks
+[gif @ 00000178def34d80] 709x574 image at pos (280;215) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0062.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 237736 bytes read, 0 seeks
+[gif @ 00000178def34d80] 190x229 image at pos (227;615) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0063.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 238252 bytes read, 0 seeks
+[gif @ 00000178def34d80] 141x250 image at pos (229;681) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0064.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 239441 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0065.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 239865 bytes read, 0 seeks
+[gif @ 00000178def34d80] 140x207 image at pos (223;779) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0066.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 241305 bytes read, 0 seeks
+[gif @ 00000178def34d80] 181x195 image at pos (242;797) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0067.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 241312 bytes read, 0 seeks
+[gif @ 00000178def34d80] 165x201 image at pos (307;791) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0068.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 242172 bytes read, 0 seeks
+[gif @ 00000178def34d80] 163x197 image at pos (343;787) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0069.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 244509 bytes read, 0 seeks
+[gif @ 00000178def34d80] 213x196 image at pos (344;787) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0070.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 245985 bytes read, 0 seeks
+[gif @ 00000178def34d80] 55x65 image at pos (479;792) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0071.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cb00] Statistics: 248438 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0072.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 247970 bytes read, 0 seeks
+[gif @ 00000178def34d80] 557x876 image at pos (0;111) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0073.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 247970 bytes read, 0 seeks
+[gif @ 00000178def34d80] 173x830 image at pos (3;102) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0074.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 247970 bytes read, 0 seeks
+[gif @ 00000178def34d80] 178x789 image at pos (3;76) [area:1080x1080]
+frame=   58 fps= 28 q=-0.0 size=    1024kB time=00:00:02.86 bitrate=2933.1kbits/s speed=1.37x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0075.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 247970 bytes read, 0 seeks
+[gif @ 00000178def34d80] 180x791 image at pos (2;58) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0076.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 247970 bytes read, 0 seeks
+[gif @ 00000178def34d80] 205x747 image at pos (2;33) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0077.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 249390 bytes read, 0 seeks
+[gif @ 00000178def34d80] 205x745 image at pos (2;4) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0078.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 250369 bytes read, 0 seeks
+[gif @ 00000178def34d80] 195x686 image at pos (2;3) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0079.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cb00] Statistics: 252151 bytes read, 0 seeks
+[gif @ 00000178def34d80] 196x672 image at pos (2;3) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0080.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 253625 bytes read, 0 seeks
+[gif @ 00000178def34d80] 214x606 image at pos (3;6) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0081.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 254216 bytes read, 0 seeks
+[gif @ 00000178def34d80] 237x632 image at pos (0;6) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0082.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cdc0] Statistics: 254936 bytes read, 0 seeks
+[gif @ 00000178def34d80] 237x538 image at pos (0;8) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0083.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 255496 bytes read, 0 seeks
+[gif @ 00000178def34d80] 232x544 image at pos (1;5) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0084.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 255726 bytes read, 0 seeks
+[gif @ 00000178def34d80] 228x460 image at pos (2;1) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0085.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cdc0] Statistics: 255911 bytes read, 0 seeks
+[gif @ 00000178def34d80] 219x452 image at pos (4;1) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0086.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 256007 bytes read, 0 seeks
+[gif @ 00000178def34d80] 220x389 image at pos (3;2) [area:1080x1080]
+frame=   70 fps= 27 q=-0.0 size=    1280kB time=00:00:03.46 bitrate=3030.6kbits/s speed=1.33x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0087.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cb00] Statistics: 256499 bytes read, 0 seeks
+[gif @ 00000178def34d80] 221x338 image at pos (2;3) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0088.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 256864 bytes read, 0 seeks
+[gif @ 00000178def34d80] 227x414 image at pos (0;0) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0089.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 257317 bytes read, 0 seeks
+[gif @ 00000178def34d80] 233x215 image at pos (0;0) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0090.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 257726 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0091.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 258240 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0092.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 258478 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0093.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 258801 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0094.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 259349 bytes read, 0 seeks
+[gif @ 00000178def34d80] 27x31 image at pos (258;984) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0095.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 259786 bytes read, 0 seeks
+[gif @ 00000178def34d80] 17x34 image at pos (239;992) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0096.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 260241 bytes read, 0 seeks
+[gif @ 00000178def34d80] 25x61 image at pos (241;1014) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0097.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 260575 bytes read, 0 seeks
+[gif @ 00000178def34d80] 54x40 image at pos (207;1040) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0098.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 261301 bytes read, 0 seeks
+[gif @ 00000178def34d80] 22x26 image at pos (373;989) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0099.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 261805 bytes read, 0 seeks
+[gif @ 00000178def34d80] 23x48 image at pos (361;1002) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0100.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 261800 bytes read, 0 seeks
+[gif @ 00000178def34d80] 16x36 image at pos (357;1041) [area:1080x1080]
+frame=   84 fps= 27 q=-0.0 size=    1280kB time=00:00:04.16 bitrate=2520.6kbits/s speed=1.34x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0101.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 262083 bytes read, 0 seeks
+[gif @ 00000178def34d80] 18x18 image at pos (363;1058) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0102.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 262367 bytes read, 0 seeks
+[gif @ 00000178def34d80] 24x11 image at pos (359;1020) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0103.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cb00] Statistics: 262768 bytes read, 0 seeks
+[gif @ 00000178def34d80] 18x11 image at pos (374;1019) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0104.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 263128 bytes read, 0 seeks
+[gif @ 00000178def34d80] 18x22 image at pos (468;1022) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0105.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cb00] Statistics: 263597 bytes read, 0 seeks
+[gif @ 00000178def34d80] 14x33 image at pos (468;1034) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0106.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 263990 bytes read, 0 seeks
+[gif @ 00000178def34d80] 24x26 image at pos (464;1049) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0107.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 264603 bytes read, 0 seeks
+[gif @ 00000178def34d80] 21x27 image at pos (479;1043) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0108.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 265146 bytes read, 0 seeks
+[gif @ 00000178def34d80] 26x33 image at pos (490;1021) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0109.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 265460 bytes read, 0 seeks
+[gif @ 00000178def34d80] 18x36 image at pos (495;1027) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0110.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 266042 bytes read, 0 seeks
+[gif @ 00000178def34d80] 17x27 image at pos (492;1049) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0111.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 27x22 image at pos (607;1020) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0112.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 24x34 image at pos (595;1028) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0113.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cdc0] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 24x27 image at pos (591;1049) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0114.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 21x22 image at pos (607;1045) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0115.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 26x44 image at pos (621;1007) [area:1080x1080]
+frame=   99 fps= 27 q=-0.0 size=    1280kB time=00:00:04.91 bitrate=2135.6kbits/s speed=1.36x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0116.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 22x34 image at pos (637;982) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0117.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 21x45 image at pos (635;982) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0118.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d1c0] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 21x56 image at pos (624;1013) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0119.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 19x26 image at pos (624;1051) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0120.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 18x21 image at pos (727;1020) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0121.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 17x42 image at pos (728;1022) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0122.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 23x27 image at pos (723;1051) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0123.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 21x17 image at pos (736;998) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0124.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 23x28 image at pos (832;1021) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0125.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d040] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 19x42 image at pos (828;1036) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0126.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 26x22 image at pos (838;1057) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0127.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 19x43 image at pos (855;1022) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0128.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 26x17 image at pos (846;1019) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0129.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 266210 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0130.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 270173 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+frame=  114 fps= 28 q=-0.0 size=    1280kB time=00:00:05.66 bitrate=1852.6kbits/s speed=1.37x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0131.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cdc0] Statistics: 269561 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0132.png' for reading
+[file @ 00000178dfc94580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 265029 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0133.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 256033 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0134.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 247244 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0135.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c880] Statistics: 234248 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0136.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 205237 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0137.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 187035 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0138.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 157370 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0139.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cdc0] Statistics: 110816 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0140.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d300] Statistics: 82195 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0141.png' for reading
+[file @ 00000178dfc94480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 53296 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0142.png' for reading
+[file @ 00000178dfc946c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cc80] Statistics: 29820 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0143.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0144.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+frame=  128 fps= 27 q=-0.0 size=    1280kB time=00:00:06.36 bitrate=1648.7kbits/s speed=1.36x    [image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0145.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d440] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0146.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0147.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96cf00] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 949x825 image at pos (0;0) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0148.png' for reading
+[file @ 00000178dfc94a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 969x923 image at pos (0;1) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0149.png' for reading
+[file @ 00000178dfc94900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96c9c0] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 978x974 image at pos (0;3) [area:1080x1080]
+[image2 @ 00000178def1ed80] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0150.png' for reading
+[file @ 00000178dfc947c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000178df96d580] Statistics: 23270 bytes read, 0 seeks
+[gif @ 00000178def34d80] 999x1005 image at pos (0;10) [area:1080x1080]
+[gif @ 00000178def34d80] 1025x1070 image at pos (0;10) [area:1080x1080]
+[gif @ 00000178def34d80] 1037x1070 image at pos (0;10) [area:1080x1080]
+[gif @ 00000178def34d80] 1080x1069 image at pos (0;11) [area:1080x1080]
+[gif @ 00000178def34d80] 1050x1069 image at pos (1;11) [area:1080x1080]
+[gif @ 00000178def34d80] 1065x1068 image at pos (1;12) [area:1080x1080]
+[gif @ 00000178def34d80] 1076x1065 image at pos (4;15) [area:1080x1080]
+frame=  140 fps= 27 q=-0.0 size=    2560kB time=00:00:06.96 bitrate=3013.1kbits/s speed=1.34x    [gif @ 00000178def34d80] 860x834 image at pos (211;244) [area:1080x1080]
+[gif @ 00000178def34d80] 617x673 image at pos (463;405) [area:1080x1080]
+[gif @ 00000178def34d80] 376x506 image at pos (704;573) [area:1080x1080]
+[gif @ 00000178def34d80] 250x204 image at pos (830;874) [area:1080x1080]
+[gif @ 00000178def34d80] 1x1 image at pos (1079;1079) [area:1080x1080]
+    Last message repeated 6 times
+[Parsed_paletteuse_0 @ 00000178def31700] [framesync @ 00000178dfcba208] Sync level 0
+[out_0_0 @ 00000178dfc90900] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=  151 fps= 27 q=-0.0 Lsize=    2970kB time=00:00:07.51 bitrate=3240.2kbits/s speed=1.34x    
+[AVIOContext @ 00000178def1eb00] Statistics: 0 seeks, 11 writeouts
+video:2970kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000658%
+Input file #0 (C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png):
+  Input stream #0:0 (video): 151 packets read (29092990 bytes); 151 frames decoded; 
+  Total: 151 packets (29092990 bytes) demuxed
+Input file #1 (C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png):
+  Input stream #1:0 (video): 1 packets read (1032 bytes); 1 frames decoded; 
+  Total: 1 packets (1032 bytes) demuxed
+Output file #0 (C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/ILMA.gif):
+  Output stream #0:0 (video): 151 frames encoded; 151 packets muxed (3041764 bytes); 
+  Total: 151 packets (3041764 bytes) muxed
+152 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000178def223c0] Statistics: 0 seeks, 12 writeouts
+[AVIOContext @ 00000178def2b7c0] Statistics: 1032 bytes read, 0 seeks

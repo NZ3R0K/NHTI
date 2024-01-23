@@ -1,0 +1,25 @@
+Grid:
+Change Gridsize : Mouse Scroll
+Change Division Count : LCtrl + Mouse Scroll
+Move Origin: Middle Mouse Button
+Toggle Origin: Keyboard 1
+Toggle Axis: Keyboard 2
+Toggle Dividers: Keyboard 3
+Change Drawing Group : Tab
+
+Default:
+Toggle Shapes: Keyboard 4
+Toggle Parabolas: Keyboard 5
+
+Circle:
+Toggle Cirlce: Keyboard 4
+Move Circle: Left Mouse Button
+Change Radius: A & D
+Change Side Count: Q & E
+
+Ellipse:
+Toggle Ellipse: Keyboard 4
+Move Ellipse: Left Mouse Button
+Change Horizontal Axis: A & D
+Change Vertical Axis: W & S
+Change Side Count: Q & E

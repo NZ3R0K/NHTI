@@ -1,0 +1,127 @@
+
+Row 3
+	Cell 1
+		Oilpaint 
+			Brush Size 1
+			Smooth 30
+		Pattern Overlay
+			Blend Mode : Hard Light
+			Opacity 75%
+	Cell 2
+		Inner Glow
+			Blend Mode : Linear Dodge
+			Opacity 75%
+			Color 255,255,255
+		Outer Glow
+			Blend Mode : Hard Light
+			Opacity 75%
+			Color : 255,0,0
+	Cell 3
+		Bevel and Emboss
+			Style : Pillow Emboss
+			Technique : Smooth
+			Direction : Up
+			Size 21px
+			
+			Shading
+			Angle 120 degrees
+			Altitude : 30
+			Highlight Mode : Screen
+			Highlight Color : 255,0,0
+			Opacity : 75%
+			Shadow Mode : Multiply
+			Shadow Color : 0,0,0
+			Opacity : 100%
+		Stroke
+			Size 2px
+			Position Center
+			Blend Mode : Multiply
+			Opacity : 75%
+			Fill Color : 255,0,0
+		
+	Cell 4
+		Inner Glow
+			Blend Mode : Linear Dodge
+			Opacity 75%
+			Color 255,255,255
+		Blur
+			Radius 1px
+			Strength : 100
+			Shape : Circle
+		Gaussian High Pass
+			Radius : 70
+			
+
+Row 4
+	Cell 1
+		Pattern Overlay
+			Blend Mode : Hard Light
+			Opacity : 100%
+		Drop Shadow
+			Blend Mode : Multiply
+			Distance : 0px
+			Spread : 0%
+			Size : 10px
+			
+			Quality
+			Noise : 100%
+	Cell 2
+		Motion Blur
+			Length : 50
+			Angle : 90
+		Inner Glow
+			Blend Mode : Linear Dodge
+			Opacity : 75%
+			Gradient Type : .svg
+			
+			Elements
+			Size : 21px
+			
+			Quality
+			Range : 1%
+			
+		
+	Cell 3
+		Wave Filter
+			Horizontal Wave
+			Wavelength : 94
+			Shift : 81
+			Amplitude : 52
+			Shape : Triangle
+			
+			Vertical Wave
+			Wavelength : 50
+			Shift : 50
+			Amplitude : 4
+			Shape : Sinusiodale
+			
+		Drop Shadow
+			Blend Mode : Normal
+		Inner Shadow
+			Blend Mode : Linear Dodge
+			Color : 255,255,255
+		Inner Glow
+			Blend Mode : Linear Dodge
+			Color : 255,255,255
+			Noise : 100%
+		
+	Cell 4
+		Inner Shadow
+			Blend Mode : Linear Dodge
+			Opacity : 75%
+			Color : 255,255,255
+			Size : 14px
+		Inner Glow
+			Blend Mode : Color Dodge
+			Opacity : 75%
+			Color : 255,255,255
+			Size : 15px
+		Bevel and Emboss
+			Style : Inner Bevel
+			Depth : 5%
+			Size : 21px
+			Color : 255,255,255
+		Gaussian High Pass
+			Threshhold : 100
+			Window Size 10
+		

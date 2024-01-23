@@ -1,0 +1,18 @@
+Tab - Switch between scenes
+
+Ship
+A/ S - Rotate
+W    - Thrust
+
+
+Cannon
+W / S - Power Change
+A / D - Rotate
+Space - Fire
+
+
+
+
+
+Cannon Note
+* Could not figure out how to do collisions properly between ground and cannon balls

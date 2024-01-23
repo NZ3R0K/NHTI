@@ -1,0 +1,655 @@
+ffmpeg version 2020-09-20-git-ef29e5bf42-full_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-libsnappy --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libdav1d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libglslang --enable-vulkan --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libwavpack --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      56. 59.100 / 56. 59.100
+  libavcodec     58.106.100 / 58.106.100
+  libavformat    58. 58.100 / 58. 58.100
+  libavdevice    58. 11.102 / 58. 11.102
+  libavfilter     7. 87.100 /  7. 87.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Knigh/AppData/Local/Temp/KritaFFmpegProgress.IGaWBk'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '20'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Knigh/AppData/Local/Temp/KritaFFmpegProgress.IGaWBk.
+[file @ 000002ec180fe840] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 20.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png.
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0000.png' for reading
+[file @ 000002ec181425c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec1814a7c0] Statistics: 23270 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0001.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec1814a600] Statistics: 27871 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0002.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18150600] Statistics: 33027 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0003.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18150840] Statistics: 41807 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0004.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18150a00] Statistics: 46246 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0005.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18150bc0] Statistics: 49462 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0006.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18150d80] Statistics: 60511 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0007.png' for reading
+[file @ 000002ec18156280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18151780] Statistics: 69636 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0008.png' for reading
+[file @ 000002ec18151780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18151880] Statistics: 77430 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0009.png' for reading
+[file @ 000002ec18151780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18151880] Statistics: 83904 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0010.png' for reading
+[file @ 000002ec18151800] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18151940] Statistics: 81315 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0011.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 84545 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0012.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 88378 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0013.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 91158 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0014.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 88838 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0015.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 90783 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0016.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 92193 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0017.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 90574 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0018.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 92309 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0019.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 92758 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0020.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 92734 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0021.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 92656 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0022.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 92928 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0023.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 94123 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0024.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 102163 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0025.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 111743 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0026.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 116091 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0027.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 125417 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0028.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 133573 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0029.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 149635 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0030.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 152849 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0031.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 168035 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0032.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 177219 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0033.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 177313 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0034.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 183804 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0035.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 186934 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0036.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 178743 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0037.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 178492 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0038.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 181452 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0039.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 184811 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0040.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 190063 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0041.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 194771 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0042.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 201001 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0043.png' for reading
+[file @ 000002ec18acc640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec18acc780] Statistics: 207982 bytes read, 0 seeks
+[image2 @ 000002ec1813ebc0] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png':
+  Duration: 00:00:06.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 44, 1/25: Video: png, 1 reference frame, rgba(pc), 1080x1080 [SAR 3937:3937 DAR 1:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png.
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 000002ec18150800] Setting 'video_size' to value '1080x1080'
+[graph 0 input from stream 0:0 @ 000002ec18150800] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002ec18150800] Setting 'time_base' to value '1/20'
+[graph 0 input from stream 0:0 @ 000002ec18150800] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 000002ec18150800] Setting 'frame_rate' to value '20/1'
+[graph 0 input from stream 0:0 @ 000002ec18150800] w:1080 h:1080 pixfmt:rgba tb:1/20 fr:20/1 sar:3937/3937
+[format @ 000002ec18150d00] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 000002ec1900e0c0] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000002ec1900e0c0] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 000002ec169179c0] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 000002ec1900f1c0] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 000002ec1900f1c0] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000002ec18150d00] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 000002ec18148b80] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 000002ec1900f1c0] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 000002ec190153c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000002ec1900e0c0] w:1080 h:1080 fmt:rgba sar:3937/3937 -> w:1080 h:1080 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 000002ec19039400] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000002ec1900f1c0] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png':
+  Metadata:
+    encoder         : Lavf58.58.100
+    Stream #0:0, 0, 1/20: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 20 fps, 20 tbn, 20 tbc
+    Metadata:
+      encoder         : Lavc58.106.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 35 times
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0044.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007740] Statistics: 210828 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0045.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 210686 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0046.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 207190 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0047.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 207190 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0048.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 207274 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0049.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007740] Statistics: 212711 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0050.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007740] Statistics: 214158 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0051.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 216944 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0052.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007e00] Statistics: 217570 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0053.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 217516 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0054.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 217516 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0055.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 221300 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0056.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 224283 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0057.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007e00] Statistics: 224675 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0058.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 226353 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0059.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 230841 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0060.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 233234 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0061.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 235309 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0062.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 237736 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0063.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 238252 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0064.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 239441 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0065.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007740] Statistics: 239865 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0066.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 241305 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0067.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 241312 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0068.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 242172 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0069.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 244509 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0070.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 245985 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0071.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 248438 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0072.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 247970 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0073.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 247970 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0074.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 247970 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0075.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 247970 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0076.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 247970 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0077.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 249390 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0078.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 250369 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0079.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 252151 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0080.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 253625 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0081.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 254216 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0082.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007740] Statistics: 254936 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0083.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 255496 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0084.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 255726 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0085.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007e00] Statistics: 255911 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0086.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 256007 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0087.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 256499 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0088.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 256864 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0089.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 257317 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0090.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 257726 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0091.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 258240 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0092.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 258478 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0093.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 258801 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0094.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 259349 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0095.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 259786 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0096.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 260241 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0097.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 260575 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0098.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 261301 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0099.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 261805 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0100.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 261800 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0101.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 262083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0102.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 262367 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0103.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 262768 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0104.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 263128 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0105.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 263597 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0106.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 263990 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0107.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 264603 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0108.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007e00] Statistics: 265146 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0109.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 265460 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0110.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 266042 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0111.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0112.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0113.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0114.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0115.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007e00] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0116.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0117.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0118.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0119.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0120.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 266210 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0121.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0122.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0123.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0124.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0125.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0126.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0127.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0128.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007f40] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0129.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 266210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0130.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 270173 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0131.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 269561 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0132.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 265029 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0133.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 256033 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0134.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 247244 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0135.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 234248 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0136.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 205237 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0137.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 187035 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0138.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 157370 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0139.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 110816 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0140.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 82195 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0141.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 53296 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0142.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007380] Statistics: 29820 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0143.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007740] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0144.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190078c0] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0145.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0146.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19008080] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0147.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec190074c0] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0148.png' for reading
+[file @ 000002ec18acc540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007b40] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0149.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007600] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000002ec1813ebc0] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame0150.png' for reading
+[file @ 000002ec181506c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007c80] Statistics: 23270 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[Parsed_palettegen_0 @ 000002ec169179c0] 255(+1) colors generated out of 256 colors; ratio=0.996094
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 000002ec181beec0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 000002ec18151c00] Opening 'C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png' for writing
+[file @ 000002ec1900f900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002ec19007a00] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.7 q=-0.0 Lsize=N/A time=00:00:00.05 bitrate=N/A speed=0.0364x    
+[AVIOContext @ 000002ec1813ea00] Statistics: 0 seeks, 3 writeouts
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/frame%04d.png):
+  Input stream #0:0 (video): 151 packets read (29092990 bytes); 151 frames decoded; 
+  Total: 151 packets (29092990 bytes) demuxed
+Output file #0 (C:/Users/Knigh/Desktop/College/AGGP 103/Labs/3/Hallam_Nathan_AG103_Lab3/Part 2/Loop/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (1032 bytes); 
+  Total: 1 packets (1032 bytes) muxed
+151 frames successfully decoded, 0 decoding errors
